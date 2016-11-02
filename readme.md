@@ -5,16 +5,6 @@ Trabalho realizado em Python
 **As chaves no projecto já não funcionam, se quiserem por a funcionar terão de criar umas novas
 The keys in the project are not working, if you want it to work you have to create a new one**
 
-python hkvs_server.py 9995 <num_para_o_log>    <<< Por "defeito" é o primário
-
-python hkvs_server.py 9994 <num_para_o_log>
-
-python hkvs_server.py 9993 <num_para_o_log>
-
-python configservice.py <num_operacoes_para_o_alive> <timeout>
-
-python hkvs_cliente.py <ip_server> <porto>
-
 
 - Efectua backups com o primário e quando é atribuido um novo primário
 - Cliente tenta-se ligar interativamente aos servidores caso a ligação não se efectue
@@ -31,7 +21,7 @@ python hkvs_cliente.py <ip_server> <porto>
 Enviamos ficheiros extra, de acordo com o procedimento para testar o programa:
 
 - Client/client_na.req 	<---		para testar a Teia de Autorização
-- CA_key/file.srl		<---		foi necessário para executar o comando de criação de certificados através do CA
+- CA_key/file.srl	<--- 		foi necessário para executar o comando de criação de certificados através do CA
 
 - Checkpoints 								- feito
 - Recuperação a Falhas  (os 3 casos) 					- feito
@@ -39,13 +29,11 @@ Enviamos ficheiros extra, de acordo com o procedimento para testar o programa:
 
 
 - Não esquecer de colocar o argumento do número de linhas para o log(no servidor).  
-	
--		>>>> python hkvs_server.py 9999 <num_linhas_para_o_log>
 
 - Não há restrições no projecto(que se tenha verificado até agora).
 
 
-####		#############Readme do projecto 2 #################
+## Fixed Bugs		#############Readme do projecto 2 #################
 
 
 
@@ -59,9 +47,22 @@ Enviamos ficheiros extra, de acordo com o procedimento para testar o programa:
 
 
 											
-####		#############Readme do projecto 1 Parcial #################
-					
+### Comandos	#############Readme do projecto 1 Parcial ################# 
 
+	#### Correr Servidores
+	
+	Diferentes terminais: um para cada servidor, ficheiro de partilha e cliente(s)
+
+	>>>> python hkvs_server.py 9995 <num_para_o_log>    <<< Por "defeito" é o primário
+
+	>>>> python hkvs_server.py 9994 <num_para_o_log>
+
+	>>>> python hkvs_server.py 9993 <num_para_o_log>
+
+	>>>> python configservice.py <num_operacoes_para_o_alive> <timeout>
+
+	>>>> python hkvs_cliente.py <ip_server> <porto>
+					
 
 	>>>Todos os caminhos são introduzidos entre "/", p.ex:
 	>>>	/caminho1/caminho2
