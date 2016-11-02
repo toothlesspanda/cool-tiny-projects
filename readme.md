@@ -15,7 +15,7 @@ The keys in the project are not working, if you want it to work you have to crea
 											
 
 
-####		#############Readme do projecto 3 #################
+### Log	@ Readme fase 3
 
 
 Enviamos ficheiros extra, de acordo com o procedimento para testar o programa:
@@ -33,7 +33,7 @@ Enviamos ficheiros extra, de acordo com o procedimento para testar o programa:
 - Não há restrições no projecto(que se tenha verificado até agora).
 
 
-## Fixed Bugs		#############Readme do projecto 2 #################
+## Fixed Bugs @ Readme fase 2
 
 
 
@@ -47,7 +47,7 @@ Enviamos ficheiros extra, de acordo com o procedimento para testar o programa:
 
 
 											
-### Comandos	#############Readme do projecto 1 Parcial ################# 
+### Comandos @ Readme fase 1
 
 	#### Correr Servidores
 	
