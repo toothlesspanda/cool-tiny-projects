@@ -2,8 +2,8 @@
 
 Trabalho realizado em Python
 
-As chaves no projecto já não funcionam, se quiserem por a funcionar terão de criar umas novas
-The keys in the project are not working, if you want it to work you have to create a new one
+**As chaves no projecto já não funcionam, se quiserem por a funcionar terão de criar umas novas
+The keys in the project are not working, if you want it to work you have to create a new one**
 
 python hkvs_server.py 9995 <num_para_o_log>    <<< Por "defeito" é o primário
 
@@ -30,34 +30,32 @@ python hkvs_cliente.py <ip_server> <porto>
 
 Enviamos ficheiros extra, de acordo com o procedimento para testar o programa:
 
-Client/client_na.req 	<---		para testar a Teia de Autorização
-CA_key/file.srl		<---		foi necessário para executar o comando de criação de certificados através do CA
+- Client/client_na.req 	<---		para testar a Teia de Autorização
+- CA_key/file.srl		<---		foi necessário para executar o comando de criação de certificados através do CA
 
-Checkpoints 								- feito
-Recuperação a Falhas  (os 3 casos) 					- feito
-Segurança(comunicação segura,confidencialidade e teias de autorização) 	- feito
+- Checkpoints 								- feito
+- Recuperação a Falhas  (os 3 casos) 					- feito
+- Segurança(comunicação segura,confidencialidade e teias de autorização) 	- feito
 
 
-Não esquecer de colocar o argumento do número de linhas para o log(no servidor).  
+- Não esquecer de colocar o argumento do número de linhas para o log(no servidor).  
 	
-		>>>> python hkvs_server.py 9999 <num_linhas_para_o_log>
+-		>>>> python hkvs_server.py 9999 <num_linhas_para_o_log>
 
-Não há restrições no projecto(que se tenha verificado até agora).
-
-Os certificados terminam a 15 de Maio.
+- Não há restrições no projecto(que se tenha verificado até agora).
 
 
 ####		#############Readme do projecto 2 #################
 
 
 
-		Em relação ao primeiro projecto resolvemos uns bugs, efectuando todo o projecto 2.
+- Em relação ao primeiro projecto resolvemos uns bugs, efectuando todo o projecto 2.
 
-		Não esquecer de colocar o argumento do número de linhas para o log(no servidor).
+- Não esquecer de colocar o argumento do número de linhas para o log(no servidor).
 
-		Não há restrições no projecto(que se tenha verificado até agora).
+- Não há restrições no projecto(que se tenha verificado até agora).
 
-		Pode seguir os mesmos testes indicados no readme do projecto anterior.
+- Pode seguir os mesmos testes indicados no readme do projecto anterior.
 
 
 											
