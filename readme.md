@@ -16,12 +16,12 @@ python configservice.py <num_operacoes_para_o_alive> <timeout>
 python hkvs_cliente.py <ip_server> <porto>
 
 
-Efectua backups com o primário e quando é atribuido um novo primário
-Cliente tenta-se ligar interativamente aos servidores caso a ligação não se efectue
-Cliente não se liga quando o servidor é backup ou não tem atribuição
-Ligação SSL feita em todas as conexões 
-Servidor primário vai abaixo, o backup com o porto 9994 passa a sê-lo. Só temos a definição do primário apenas quando o servidor do porto 9995 vai abaixo.
-Se o cliente estiver ligado ao servidor primário e este vá abaixo, não temos maneira de recuperar a ligação para o novo primário.
+- Efectua backups com o primário e quando é atribuido um novo primário
+- Cliente tenta-se ligar interativamente aos servidores caso a ligação não se efectue
+- Cliente não se liga quando o servidor é backup ou não tem atribuição
+- Ligação SSL feita em todas as conexões 
+- Servidor primário vai abaixo, o backup com o porto 9994 passa a sê-lo. Só temos a definição do primário apenas quando o servidor do porto 9995 vai abaixo.
+- Se o cliente estiver ligado ao servidor primário e este vá abaixo, não temos maneira de recuperar a ligação para o novo primário.
 											
 
 
