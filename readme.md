@@ -1,6 +1,6 @@
 ##Sistema Distribuído
 
-Trabalho realizado em Python
+Trabalho realizado em Python, no âmbito da cadeira de Aplicações Distribuídas, Faculdade de Ciências da Universidade de Lisboa (2014/2015)
 
 **As chaves no projecto já não funcionam, se quiserem por a funcionar terão de criar umas novas  
 The keys in the project are not working, if you want it to work you have to create a new one**
