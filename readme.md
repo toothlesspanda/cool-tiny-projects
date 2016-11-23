@@ -3,4 +3,5 @@
 
 Aqui poderão encontrar projetos tanto de licenciatura como de mestrado, de forma a ajudar futuros alunos e outros interessados.
 
-*Não nos responsabilizamos por fraudes. O intuito deste repositório não é para alguém copiar mas sim para mostrar um pouco de como as coisas poderão ser feitas*
+**Não nos responsabilizamos por fraudes.** 
+O intuito deste repositório não é para alguém copiar mas sim para mostrar um pouco de como as coisas poderão ser feitas e de certo modo, dissolvendo dúvidas que possam surgir
