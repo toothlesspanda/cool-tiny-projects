@@ -1,0 +1,28 @@
+@CHARSET "ISO-8859-1";
+
+body{
+	background-color: rgba(150,200,150,0.6);
+	font-family: "Sans-serif", Verdana, serif;
+		
+}
+
+h1{
+	text-shadow: 0 0 0.2em #fff;
+	color: rgba(000,000,000,0.5);
+}
+h2{
+	color: rgba(000,000,000,0.5);
+}
+td{
+	background-color:rgba(250,250,250,0.4);
+	
+}
+
+th{
+	color: black;	
+}
+
+table{
+	border-style: dotted;
+    border-width: 1.5px;
+}
