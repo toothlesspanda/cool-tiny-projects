@@ -1,0 +1,82 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui",1381495180928
+started,bundle,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console",1381495180930
+started,bundle,org.eclipse.ui.editors,3.7.0.v20110517-0800,"org.eclipse.ui.editors",1381495180930
+started,bundle,org.eclipse.ui.forms,3.5.100.v20110425,"org.eclipse.ui.forms",1381495180931
+started,bundle,org.eclipse.ui.ide,3.7.0.v20110809-1737,"org.eclipse.ui.ide",1381495180933
+started,bundle,org.eclipse.ui.navigator,3.5.100.v20110809-2227,"org.eclipse.ui.navigator",1381495180934
+started,bundle,org.eclipse.ui.net,1.2.100.I20110511-0800,"org.eclipse.ui.net",1381495180935
+started,bundle,org.eclipse.ui.views,3.6.0.I20110412-0800,"org.eclipse.ui.views",1381495180936
+started,bundle,org.eclipse.ui.views.log,1.0.200.v20110404,"org.eclipse.ui.views.log",1381495180937
+started,bundle,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"org.eclipse.ui.workbench",1381495180938
+started,bundle,org.eclipse.ui.workbench.texteditor,3.7.0.v20110505-0800,"org.eclipse.ui.workbench.texteditor",1381495180940
+started,bundle,org.eclipse.update.configurator,3.3.100.v20100512,"org.eclipse.update.configurator",1381495180940
+started,bundle,org.eclipse.update.core,3.2.500.v20110330,"org.eclipse.update.core",1381495180942
+started,bundle,org.eclipse.update.scheduler,3.2.300.v20100512,"org.eclipse.update.scheduler",1381495180942
+started,bundle,org.eclipse.wb.discovery.core,1.1.0.r37x201109091028,"org.eclipse.wb.discovery.core",1381495180943
+started,bundle,org.eclipse.wb.discovery.ui,1.1.0.r37x201109091028,"org.eclipse.wb.discovery.ui",1381495180943
+started,bundle,org.eclipse.wst.common.project.facet.core,1.4.200.v201103170332,"org.eclipse.wst.common.project.facet.core",1381495180944
+started,bundle,org.eclipse.wst.web,1.1.500.v201104251400,"org.eclipse.wst.web",1381495180945
+started,bundle,org.polarion.eclipse.team.svn.connector.svnkit15,2.2.2.I20110819-1700,"org.polarion.eclipse.team.svn.connector.svnkit15",1381495180946
+started,bundle,org.polarion.eclipse.team.svn.connector.svnkit16,2.2.2.I20110819-1700,"org.polarion.eclipse.team.svn.connector.svnkit16",1381495180947
+started,bundle,org.polarion.eclipse.team.svn.connector.svnkit16l,2.2.2.I20110819-1700,"org.polarion.eclipse.team.svn.connector.svnkit16l",1381495180947
+started,bundle,org.python.pydev,2.8.1.2013072611,"org.python.pydev",1381495180959
+started,bundle,org.python.pydev.core,2.8.1.2013072611,"org.python.pydev.core",1381495180973
+started,bundle,org.python.pydev.debug,2.8.1.2013072611,"org.python.pydev.debug",1381495180982
+started,bundle,org.python.pydev.shared_core,2.8.1.2013072611,"org.python.pydev.shared_core",1381495180995
+started,bundle,org.python.pydev.shared_interactive_console,2.8.1.2013072611,"org.python.pydev.shared_interactive_console",1381495181004
+started,bundle,org.python.pydev.shared_ui,2.8.1.2013072611,"org.python.pydev.shared_ui",1381495181008
+os,sysinfo,,,"linux",1381495181015
+arch,sysinfo,,,"x86",1381495181015
+ws,sysinfo,,,"gtk",1381495181015
+locale,sysinfo,,,"en_US",1381495181015
+processors,sysinfo,,,"2",1381495181016
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1381495181016
+java.runtime.version,sysinfo,,,"1.7.0-b147",1381495181016
+java.specification.name,sysinfo,,,"Java Platform API Specification",1381495181016
+java.specification.vendor,sysinfo,,,"Oracle Corporation",1381495181016
+java.specification.version,sysinfo,,,"1.7",1381495181016
+java.vendor,sysinfo,,,"Oracle Corporation",1381495181016
+java.version,sysinfo,,,"1.7.0",1381495181016
+java.vm.info,sysinfo,,,"mixed mode",1381495181016
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1381495181016
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1381495181016
+java.vm.specification.vendor,sysinfo,,,"Oracle Corporation",1381495181016
+java.vm.specification.version,sysinfo,,,"1.7",1381495181016
+java.vm.vendor,sysinfo,,,"Oracle Corporation",1381495181016
+java.vm.version,sysinfo,,,"21.0-b17",1381495181016
+started,bundle,org.eclipse.m2e.usagedata,1.0.100.20110804-1717,"org.eclipse.m2e.usagedata",1381495181034
+opened,view,org.eclipse.ui.ide,3.7.0.v20110809-1737,"org.eclipse.ui.views.ProblemView",1381495181352
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1381495181478
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1381495190739
+error,log,,,"Unable to create editor ID org.eclipse.jdt.ui.ClassFileEditor: The Class File Viewer cannot handle the given input ('org.eclipse.ui.ide.FileStoreEditorInput').",1381495205653
+opened,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.ClassFileEditor",1381495205770
+opened,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.ClassFileEditor",1381495205777
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.ClassFileEditor",1381495205878
+error,log,,,"Unable to create editor ID org.eclipse.jdt.ui.ClassFileEditor: The Class File Viewer cannot handle the given input ('org.eclipse.ui.ide.FileStoreEditorInput').",1381495205917
+opened,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.ClassFileEditor",1381495205991
+opened,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.ClassFileEditor",1381495205999
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.ClassFileEditor",1381495206040
+executed,command,org.eclipse.ui.ide,3.7.0.v20110809-1737,"org.eclipse.ui.edit.text.openLocalFile",1381495206051
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1381495206136
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.ClassFileEditor",1381495207813
+closed,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.ClassFileEditor",1381495207815
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1381495209631
+closed,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.ClassFileEditor",1381495209631
+started,bundle,org.eclipse.jdt.junit,3.7.0.v20110505-0800,"org.eclipse.jdt.junit",1381495214051
+started,bundle,org.eclipse.compare,3.5.201.R37x_v20110817-0800,"org.eclipse.compare",1381495214601
+executed,command,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.edit.text.java.show.outline",1381495215964
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1381495216005
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1381495217932
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1381495221073
+closed,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1381495226232
+stopped,bundle,org.eclipse.m2e.logback.configuration,1.0.100.20110804-1717,"org.eclipse.m2e.logback.configuration",1381495227296
+stopped,bundle,org.eclipse.m2e.discovery,1.0.100.20110804-1717,"org.eclipse.m2e.discovery",1381495227298
+stopped,bundle,org.eclipse.m2e.refactoring,1.0.100.20110804-1717,"org.eclipse.m2e.refactoring",1381495227299
+stopped,bundle,org.eclipse.m2e.editor,1.0.100.20110804-1717,"org.eclipse.m2e.editor",1381495227300
+stopped,bundle,org.eclipse.m2e.editor.xml,1.0.100.20110804-1717,"org.eclipse.m2e.editor.xml",1381495227302
+stopped,bundle,org.eclipse.m2e.jdt,1.0.100.20110804-1717,"org.eclipse.m2e.jdt",1381495227303
+stopped,bundle,org.eclipse.m2e.launching,1.0.100.20110804-1717,"org.eclipse.m2e.launching",1381495227304
+stopped,bundle,org.eclipse.m2e.usagedata,1.0.100.20110804-1717,"org.eclipse.m2e.usagedata",1381495227305
+stopped,bundle,org.eclipse.datatools.enablement.hsqldb.ui,1.0.0.v201108120600,"org.eclipse.datatools.enablement.hsqldb.ui",1381495227308
+stopped,bundle,org.eclipse.datatools.enablement.ingres.ui,1.0.0.v201105270214,"org.eclipse.datatools.enablement.ingres.ui",1381495227309

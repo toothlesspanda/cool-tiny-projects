@@ -1,0 +1,14 @@
+package pco;
+
+public class date {
+	int day;
+	int month;
+	int year;
+	
+	public Date(ind d, int m, int y){
+		day=d;
+		month=m;
+		y=year;
+	}
+
+}

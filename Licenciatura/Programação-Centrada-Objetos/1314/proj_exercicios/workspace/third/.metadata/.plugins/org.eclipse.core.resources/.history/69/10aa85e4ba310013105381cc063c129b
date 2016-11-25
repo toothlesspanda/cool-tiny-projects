@@ -1,0 +1,9 @@
+
+public class exer1 {
+
+	public static void main(String[] args) {
+		for(int post=0; pos<args.lengt; pos++)
+		System.out.println("args[" + pos + "]");
+	}
+
+}

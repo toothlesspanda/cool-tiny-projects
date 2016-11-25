@@ -1,0 +1,54 @@
+import java.util.Scanner;
+
+public class Coord2D {
+	
+	 double x;
+	 double y;
+	
+	public Coord2D(double x0, double y0){
+		 x=x0;
+		 y=y0;
+		
+	}
+
+	public double getX(){   	
+		return x;
+	} 
+
+	public double getY(){
+		return y;
+	}
+	public  String toString() {
+	
+		return "("+x+","+y+")";
+      
+    }
+	public void add(Coord2D other){
+		x= x + other.x;
+		y= y + other.y;
+	}
+	
+	public void mul(double a){
+		x=x*a;
+		y=y*a;
+	}
+	
+	public double distance(Coord2D other){
+		double difx=x - other.x;
+		double dify=y - other.y;
+		
+		return difx
+		
+	}
+
+	
+	public static void main(String[] args) {
+		Coord2D c1= new Coord2D(1,1);
+		Coord2D c2= new Coord2D(2,2);
+		c1.add(c2);
+		c2.mul(3.0);
+		String t= toString();
+
+	}
+
+}

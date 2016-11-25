@@ -1,0 +1,10 @@
+package coco;
+import pco.Date;
+
+public class Time {
+	public static void main(String[] args){
+		Date d= new Date(17,10,2013);
+		System.out.println(d.getDay()+"/"+ d.getMonth()+"/"+d.getYear());
+	}
+
+}

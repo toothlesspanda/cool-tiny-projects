@@ -1,0 +1,26 @@
+package pco;
+
+public class date {
+	private int day;
+	private int month;
+	private int year;
+	
+	public date(int d, int m, int y){
+		day=d;
+		month=m;
+		year=y;
+	}
+
+		public int getDay(){
+			return day;
+		}
+		public int getMonth(){
+			return month;
+		}
+		
+		public int getYear(){
+			return year;
+		}
+
+		
+}

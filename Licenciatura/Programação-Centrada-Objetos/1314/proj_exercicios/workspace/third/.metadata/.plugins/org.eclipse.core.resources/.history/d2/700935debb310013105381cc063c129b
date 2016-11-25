@@ -1,0 +1,10 @@
+
+public class exer2 {
+	
+	
+	public static void main(String[] args) {
+		for(int pos=0; pos<args.length; pos++){
+			System.out.println("args[" + pos + "] =" + Integer.parseInt(args[pos]));
+		}
+
+}

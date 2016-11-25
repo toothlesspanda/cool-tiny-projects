@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;exer8.java&apos; to &apos;Coord2D.java&apos;&#x0A;- Original project: &apos;Exercicio1&apos;&#x0A;- Original element: &apos;exer8.java&apos;&#x0A;- Renamed element: &apos;Coord2D.java&apos;" description="Rename compilation unit &apos;exer8.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{exer8.java" name="Coord2D.java" references="false" stamp="1381418037432" version="1.0"/>
+</session>

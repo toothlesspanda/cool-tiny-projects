@@ -1,0 +1,116 @@
+package hangman;
+
+import java.util.Scanner;
+
+public class Game {
+	private static String w; //palavra para adivinhar
+	private int tentativas=0; // numero de tentativas
+	//private int nletrasW; //numero de letras
+	//private char letra; //letra inserida
+	private static char[] lF; //letras ditas e erradas
+	private static char[] lW; //letras ditas e certas
+	private int guessletras; //numero de letras inseridas
+	private int ocorrencias; // numero de vezes na palavra secreta
+	
+	public Game(String word){
+		w=word;
+	}
+	
+	public int totalLetters(){	
+		return w.length();		
+	}
+	public int missedLetters(){
+		return tentativas;
+	}
+	public int guessedLetters(){
+		return guessletras;
+	}
+	
+	public boolean gameOver(){
+		if(missedLetters()==6 || guessedLetters()==totalLetters()){
+			return true;
+		}
+		
+		return false;
+		
+	}
+	public boolean playerWon(){
+		if(guessedLetters()==totalLetters())
+			return true;
+		return false;
+		
+	}
+	public boolean playerLost(){
+		if(tentativas==6){
+			return true;
+		}	
+		return false;	
+	}
+	
+	public int guess(char l){
+		if(gameOver())
+			return -2;
+		if(usedLetter(l))
+			return -1;
+		if(!usedLetter(l) && !w.equals(l)){	
+			tentativas++;
+			return 0;
+		}
+		if(!usedLetter(l) && w.equals(l)){ /*?comparar a letra a todas as letras da string ?*/
+			ocorrencias++;
+			return ocorrencias;
+		}
+	}
+	public static boolean usedLetter(char l){
+		for(int i=0; i!= '\0'; i++){
+			if(lW[i]==l || lF[i]==l){
+				return true;
+			}
+		}
+		return false;
+		
+	}
+	public static boolean guessedLetter(char l){
+		if(usedLetter(l) && w.equals(l)){
+			return true;
+		}
+		return false;
+	}
+	public boolean missedLetter(char l){
+		for(int i=0; i < '\0' ;i++){
+			if(usedLetter(l) && lF[i]==l){
+				return true;
+			}
+		}
+		return false;		
+	}
+	
+	public String toString(){
+		char[] letrasC;
+		char[] wC = w.toCharArray();
+				
+		if(guessletras == 0){
+			for(int i=0; i < w.length();i++ ){
+				letrasC[i]='_';
+			}
+			
+		}
+		
+			if(guessletras>0){
+				for(int i=0; wC[i] !='\0';i++){
+					for(int j=0; lW[i] != '\0';j++){				
+						if(wC[i]==lW[j]){
+							letrasC[i]= lW[j];
+					
+						}
+					}			
+				}
+			}
+		
+
+		String letras = new String(letrasC);
+		return Character.toString(letrasC);
+			
+	}
+
+}
