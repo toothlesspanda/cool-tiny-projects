@@ -1,6 +1,6 @@
 ##proj_exercicios
 
-Contém 2 projectos e 5 exerícios
+Contém 2 projectos e 5 exercícios
 - projecto_1 => Projecto Hangman
 - projecto_2 =>Projecto Spaceship
 - first => pequenos algoritmos (euclides, abs) 
