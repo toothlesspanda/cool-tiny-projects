@@ -26,12 +26,14 @@ Calculadora Distribuída, cada agente trata da uma operação e cada agente est�
 Starter - pede as operações e envia aos serviços(agente/operação) respectivos  
 
 #### Como correr
-Inserção da conta na consola: [número]<espaço>[númmero]<espaço>[operação]   => operação pode ser: + - / *  
--gui -port 1222 -agents "Boot:agentsTP6.BootAgent(1222)"   => argumento corresponde ao porto (se alterar aqui é preciso alterar no Starter)  
+Inserção da conta na consola: **[número]**[espaço]**[número]**[espaço]**[operação]**   => operação pode ser: + - / *  
+-gui -port 1222 -agents "Boot:agentsTP6.BootAgent(1222)"   => argumento corresponde ao porto (se alterar aqui é preciso alterar no Starter)
+  
 -gui -port 1223 -agents "Boot2:agentsTP6.BootAgent(1223)"  => argumento corresponde ao porto (se alterar aqui é preciso alterar no Starter)  
+  
 -gui -port 1221 -agents "Starter:agentsTP6.StarterAgent"  
-
-
+  
+Antes de iniciar a conta, federar os DF's (Tools > Show Gui; Super DF > Federate), federar DF do Starter à plataforma 1222 e 1223(e vice-versa).
 
 
 
