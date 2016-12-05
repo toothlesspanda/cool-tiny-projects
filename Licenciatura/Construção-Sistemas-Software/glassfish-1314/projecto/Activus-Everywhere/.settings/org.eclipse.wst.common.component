@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Activus-Everywhere">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="Activus-EverywhereWeb.war" deploy-path="/" handle="module:/resource/Activus-EverywhereWeb/Activus-EverywhereWeb">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="Activus-EverywhereConnector.rar" deploy-path="/" handle="module:/resource/Activus-EverywhereConnector/Activus-EverywhereConnector">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="Activus-EverywhereEJB.jar" deploy-path="/" handle="module:/resource/Activus-EverywhereEJB/Activus-EverywhereEJB">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="Activus-EverywhereClient.jar" deploy-path="/" handle="module:/resource/Activus-EverywhereClient/Activus-EverywhereClient">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="Activus-EverywhereEJBClient.jar" deploy-path="/" handle="module:/resource/Activus-EverywhereEJBClient/Activus-EverywhereEJBClient">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
