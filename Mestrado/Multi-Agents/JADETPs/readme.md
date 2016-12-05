@@ -17,7 +17,7 @@ Em resumo, um agente inicia uma conversa sobre um assunto, são trocadas dez men
 Nota: Tendo os agentes um comportamento semelhante, apenas temos de definir um especial para iniciar a conversa (pode depois desaparecer) sendo os restantes cópias uns dos outros.   
 
 ###agentsTP3
-Cada agente conversador deve ter dois comportamentos em paralelo: um recebe as mensagens e outro envia as mensagens. Não pode haver repetição de mensagens com o mesmo conteúdo.
+Refazer o exercício 2 usando comportamentos paralelos. Cada agente conversador deve ter dois comportamentos em paralelo: um recebe as mensagens e outro envia as mensagens. Não pode haver repetição de mensagens com o mesmo conteúdo.
 
 
 ###agentsTP4
