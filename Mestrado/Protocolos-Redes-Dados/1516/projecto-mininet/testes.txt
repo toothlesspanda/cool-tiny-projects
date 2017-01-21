@@ -1,0 +1,42 @@
+sudo mn --custom proj.py --topo ourfattopo --link tc --switch ovsk --controller=remote,ip=127.0.0.1,port=6634
+
+test: pingall
+	#como não existe tabelas de reencaminhamento definidas, o mininet, vai gerar tabelas aleatórias podendo não gerar fluxos de um server ao outro, entrando possivelmente em loop, isto quando o k>2
+	# Resultado esperado é que falhe na maior parte dos casos, podendo surgir algumas situações onde o fluxo entre os servidores realmente existe 
+
+#Cria flows do h1_p1 até ao h13_p4 (k=4)
+s1_edg_p1 dpctl add-flow tcp:127.0.0.1:6636 idle_timeout=6000,in_port=1,actions=output:3
+s1_edg_p1 dpctl add-flow tcp:127.0.0.1:6636 idle_timeout=6000,in_port=3,actions=output:1
+
+s1_agg_p1 dpctl add-flow tcp:127.0.0.1:6634 idle_timeout=6000,in_port=1,actions=output:3
+s1_agg_p1 dpctl add-flow tcp:127.0.0.1:6634 idle_timeout=6000,in_port=3,actions=output:1
+
+s1_core dpctl add-flow tcp:127.0.0.1:6635 idle_timeout=6000,in_port=1,actions=output:4 
+s1_core dpctl add-flow tcp:127.0.0.1:6635 idle_timeout=6000,in_port=4,actions=output:1
+
+s7_agg_p4 dpctl add-flow tcp:127.0.0.1:6650 idle_timeout=6000,in_port=3,actions=output:2
+s7_agg_p4 dpctl add-flow tcp:127.0.0.1:6650 idle_timeout=6000,in_port=2,actions=output:3
+
+s7_edg_p4 dpctl add-flow tcp:127.0.0.1:6651 idle_timeout=6000,in_port=3,actions=output:1
+s7_edg_p4 dpctl add-flow tcp:127.0.0.1:6651 idle_timeout=6000,in_port=1,actions=output:3  
+
+
+#Cria flows do h1_p1 até ao h4_p1 (k=4)
+s1_edg_p1 dpctl add-flow tcp:127.0.0.1:6636 idle_timeout=6000,in_port=4,actions=output:1
+s1_edg_p1 dpctl add-flow tcp:127.0.0.1:6636 idle_timeout=6000,in_port=1,actions=output:4
+
+s2_agg_p1 dpctl add-flow tcp:127.0.0.1:6637 idle_timeout=6000,in_port=1,actions=output:2
+s2_agg_p1 dpctl add-flow tcp:127.0.0.1:6637 idle_timeout=6000,in_port=2,actions=output:1
+
+s2_edg_p1 dpctl add-flow tcp:127.0.0.1:6639 idle_timeout=6000,in_port=4,actions=output:2
+s2_edg_p1 dpctl add-flow tcp:127.0.0.1:6639 idle_timeout=6000,in_port=2,actions=output:4
+
+mininet> h1_p1 ping h4_p1
+PING 10.0.0.4 (10.0.0.4) 56(84) bytes of data.
+64 bytes from 10.0.0.4: icmp_seq=1 ttl=64 time=46.6 ms
+64 bytes from 10.0.0.4: icmp_seq=2 ttl=64 time=22.9 ms
+64 bytes from 10.0.0.4: icmp_seq=3 ttl=64 time=24.0 ms
+...+9
+12 packets transmitted, 12 received, 0% packet loss, time 11011ms
+
+
