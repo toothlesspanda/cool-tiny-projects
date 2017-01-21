@@ -1,0 +1,14 @@
+CSV DA ORDEM
+id;produto;cliente;moradaS; moradaD; viatura;motorista;secretariado;
+nº;------ ;nome; rua:porta:andar:cp:local ;  rua:porta:andar:cp:local ; id; nome; nome;
+
+
+CSV CATALOGO CLIENTES
+id;nome; contacto; lista<moradas>.get(id)
+
+
+CSV MORADA
+id; rua; porta; andar; cp; local; distEmp
+
+CSV FROTA;
+id;matricula;km;ano;tipo

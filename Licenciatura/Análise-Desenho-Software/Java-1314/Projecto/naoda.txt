@@ -1,0 +1,64 @@
+System.out.println("Cliente registado?[s/n]: ");
+				String ch = sc.next();
+				
+				if(ch.compareTo("n")==0){
+					System.out.println("Iniciar Registo!");
+					System.out.print("Nome: ");
+					String nome = sc.next();
+					System.out.print("Telefone: ");
+					int telefone = sc.nextInt();
+					Cliente novoCliente = new Cliente(nome,telefone);
+					cc.addCliente(novoCliente);
+					
+					System.out.println("--Moradas--");
+					System.out.print("Rua[substitua espaços por \"_\"]: ");
+					String rua = sc.next();
+					System.out.print("Porta: ");
+					int porta = sc.nextInt();
+					System.out.println("Andar: ");
+					String andar = sc.next();
+					System.out.println("CP: ");
+					String cp = sc.next();
+					System.out.println("Local: ");
+					String local = sc.next();
+					
+					String[] rua_sem=rua.split("_");
+					String ruaToda ="";
+					for(int ja =0; ja < rua_sem.length; ja++){
+						ruaToda += rua_sem[ja];
+					}
+					ms.addMorada(new Morada(ruaToda, andar, porta, cp, local, 0));
+					wMor.write(ms, new Morada(ruaToda, andar, porta, cp, local, 0);
+					novoCliente.addMorada(new Morada(ruaToda, andar, porta, cp, local, 0));
+					System.out.println("Mais moradas?[s/n]: ");
+					String escolha = sc.next();
+					
+					while(escolha.compareTo("n")!=0){
+						System.out.print("Rua: ");
+						String rua1 = sc.next();
+						System.out.print("Porta: ");
+						int porta1 = sc.nextInt();
+						System.out.println("Andar: ");
+						String andar1 = sc.next();
+						System.out.println("CP: ");
+						String cp1 = sc.next();
+						System.out.println("Local: ");
+						String local1 = sc.next();
+						
+						String[] rua_sem1 =rua.split("_");
+						String ruaToda1 ="";
+						for(int ja =0; ja < rua_sem1.length; ja++){
+							ruaToda1 += rua_sem1[ja];
+						}
+						ms.addMorada(new Morada(ruaToda1, andar1, porta1, cp1, local1, 0));
+						wMor.write(ms, new Morada(ruaToda1, andar1, porta1, cp1, local, 0);
+						novoCliente.addMorada(new Morada(ruaToda1, andar1, porta1, cp1, local1, 0));
+						System.out.println("Mais moradas?[s/n]: ");
+						escolha = sc.next();
+					}
+					rMor.read(ms, inMor);
+					wCC.write(cc,novoCliente);
+					rCC.read(inF, inMor, cc, ms);
+					continue;
+				}else if(ch.compareTo("s")==0){
+	
