@@ -1,3 +1,3 @@
-## Sistemas Baseado em Conhecimento / Sistemas Inteligentes
+### Sistemas Baseado em Conhecimento / Sistemas Inteligentes
 
-Projeto em prolog
+#### prolog-1314 # malayka66
