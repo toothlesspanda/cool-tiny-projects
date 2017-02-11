@@ -8,4 +8,4 @@ O intuito deste repositório não é para alguém copiar mas sim para mostrar um
 
 -------
 
-Here you can find some college projects made by me and some collegues, while doing courses in Faculdty of Sciente, University of Lisbon (Bachelor in IT and Masters in Informatics). This repo is focused helping further students that might have issues on their assingments. Not being a replacement of your own work, you should keep in mind that no one will take the course for you and your journey will define the professional that you will be. 
+Here you can find some college projects made by me and some collegues, while doing courses in Faculty of Science, University of Lisbon (Bachelor in IT and Masters in Informatics). This repo is focused helping further students that might have issues on their assingments. Not being a replacement of your own work, you should keep in mind that no one will take the course for you and your journey will define the professional that you will be. 
