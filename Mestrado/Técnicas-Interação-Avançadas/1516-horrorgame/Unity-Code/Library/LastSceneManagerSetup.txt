@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/_Scene/02_05_unityTIA.unity
+  isLoaded: 1
+  isActive: 1

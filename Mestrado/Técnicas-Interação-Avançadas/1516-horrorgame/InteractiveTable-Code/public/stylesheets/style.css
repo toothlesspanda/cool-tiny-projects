@@ -1,0 +1,294 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  width: 100%;
+  height: 100%; }
+  body #title {
+    text-align: center; }
+  body #content {
+    text-align: center;
+    border-top: medium solid black;
+    height: 80%; }
+    body #content table {
+      margin: auto; }
+      body #content table tr td:first-child {
+        text-align: right;
+        font-weight: bold; }
+    body #content #connect, body #content #playAgain {
+      padding: 1em;
+      border: medium solid black;
+      background-color: transparent;
+      cursor: pointer; }
+    body #content #connect:hover, body #content #playAgain:hover {
+      color: white;
+      background-color: black; }
+    body #content #connect:focus, body #content #playAgain:focus {
+      outline: 0; }
+    body #content #monsters {
+      width: 20%;
+      border-right: medium solid black; }
+      body #content #monsters table {
+        width: 100%; }
+        body #content #monsters table tr {
+          width: 100%; }
+          body #content #monsters table tr td {
+            width: 30%;
+            border-bottom: thin solid black; }
+          body #content #monsters table tr #boo {
+            width: 100%; }
+          body #content #monsters table tr #spider {
+            width: 100%; }
+          body #content #monsters table tr #tank {
+            width: 100%; }
+          body #content #monsters table tr #grunt {
+            width: 100%;
+            height: 150px; }
+          body #content #monsters table tr #slenderman {
+            width: 100%; }
+    body #content #map {
+      width: 59%; }
+    body #content #traps {
+      width: 20%;
+      border-left: medium solid black; }
+      body #content #traps #traps2 table {
+        width: 100%; }
+        body #content #traps #traps2 table tr:first-child td {
+          border-bottom: thin solid black; }
+        body #content #traps #traps2 table tr:nth-child(2) td {
+          border-bottom: thin solid black; }
+        body #content #traps #traps2 table tr {
+          width: 100%; }
+          body #content #traps #traps2 table tr td {
+            width: 10%;
+            text-align: center; }
+            body #content #traps #traps2 table tr td #teleport {
+              width: 100%; }
+            body #content #traps #traps2 table tr td #lights {
+              width: 100%;
+              height: 100px; }
+      body #content #traps #sounds {
+        padding-top: 1em;
+        border-top: medium solid black; }
+        body #content #traps #sounds table {
+          width: 100%; }
+          body #content #traps #sounds table tr {
+            width: 100%; }
+            body #content #traps #sounds table tr td {
+              width: 20%;
+              text-align: left; }
+    body #content #monsters, body #content #map, body #content #traps {
+      display: inline-block;
+      float: left;
+      height: 40em; }
+    body #content #tests, body #content #keys {
+      border-bottom: medium solid black;
+      height: 8em; }
+    body #content #location {
+      font-weight: bold; }
+    body #content #location_selected {
+      float: left;
+      text-align: left;
+      padding-left: 1em; }
+    body #content #pulse_points {
+      float: right;
+      text-align: left;
+      padding-right: 1em; }
+    body #content #lab8_sec1 {
+      width: 170px;
+      height: 80px;
+      position: relative;
+      top: 12%;
+      left: 20%;
+      border: thin solid black; }
+    body #content #tun10 {
+      width: 5%;
+      height: 15px;
+      position: relative;
+      left: 41%;
+      border: thin solid black; }
+    body #content #lab7 {
+      width: 50px;
+      height: 50px;
+      position: relative;
+      left: 46%;
+      top: -3%;
+      border: thin solid black; }
+    body #content #lab7_sec2 {
+      width: 100%;
+      height: 50%;
+      border-bottom: thin dashed black; }
+    body #content #lab7_sec1 {
+      width: 100%;
+      height: 49%; }
+    body #content #tun9 {
+      width: 30px;
+      height: 10%;
+      position: relative;
+      left: 27%;
+      top: -0.5%;
+      border: thin solid black; }
+    body #content #tun8 {
+      width: 20px;
+      height: 12%;
+      position: relative;
+      left: 48%;
+      top: -13.5%;
+      border: thin solid black; }
+    body #content #lab5 {
+      width: 80px;
+      height: 80px;
+      position: relative;
+      left: 25%;
+      top: -13%;
+      border: thin solid black; }
+    body #content #lab5_sec2 {
+      width: 100%;
+      height: 50%;
+      border-bottom: thin dashed black; }
+    body #content #lab5_sec1 {
+      width: 100%;
+      height: 49%; }
+    body #content #tun7 {
+      width: 10%;
+      height: 30px;
+      position: relative;
+      left: 35%;
+      top: -22%;
+      border: thin solid black; }
+    body #content #lab6 {
+      width: 80px;
+      height: 80px;
+      position: relative;
+      left: 45%;
+      top: -34%;
+      border: thin solid black; }
+    body #content #lab6_sec2 {
+      width: 100%;
+      height: 50%;
+      border-bottom: thin dashed black; }
+    body #content #lab6_sec1 {
+      width: 100%;
+      height: 49%; }
+    body #content #tun6 {
+      width: 30px;
+      height: 10%;
+      position: relative;
+      left: 27%;
+      top: -33.5%;
+      border: thin solid black; }
+    body #content #tun5 {
+      width: 30px;
+      height: 10%;
+      position: relative;
+      left: 48%;
+      top: -44.5%;
+      border: thin solid black; }
+    body #content #lab3 {
+      width: 80px;
+      height: 180px;
+      position: relative;
+      left: 25%;
+      top: -44%;
+      border: thin solid black; }
+    body #content #lab3_sec3 {
+      height: 33%;
+      width: 100%;
+      border-bottom: thin dashed black; }
+    body #content #lab3_sec2 {
+      height: 33%;
+      width: 100%;
+      border-bottom: thin dashed black; }
+    body #content #lab3_sec1 {
+      height: 33%;
+      width: 100%; }
+    body #content #tun4 {
+      width: 10%;
+      height: 25px;
+      position: relative;
+      left: 35.2%;
+      top: -68%;
+      border: thin solid black; }
+    body #content #lab4 {
+      width: 80px;
+      height: 80px;
+      position: relative;
+      left: 45.3%;
+      top: -82%;
+      border: thin solid black; }
+    body #content #lab4_sec2 {
+      width: 100%;
+      height: 49%;
+      border-bottom: thin dashed black; }
+    body #content #lab4_sec1 {
+      width: 100%;
+      height: 49%; }
+    body #content #tun3 {
+      width: 20px;
+      height: 5%;
+      position: relative;
+      left: 48%;
+      top: -82%;
+      border: thin solid black; }
+    body #content #tun2 {
+      width: 10%;
+      height: 25px;
+      position: relative;
+      left: 35%;
+      top: -77%;
+      border: thin solid black; }
+    body #content #lab2 {
+      width: 80px;
+      height: 65px;
+      position: relative;
+      left: 45.3%;
+      top: -87%;
+      border: thin solid black; }
+    body #content #lab2_sec2 {
+      width: 49%;
+      height: 100%;
+      display: inline-block;
+      float: left;
+      border-right: thin dashed black; }
+    body #content #lab2_sec1 {
+      width: 49%;
+      height: 100%;
+      display: inline-block;
+      float: left; }
+    body #content #tun1 {
+      width: 7%;
+      height: 25px;
+      position: relative;
+      left: 55.5%;
+      top: -94%;
+      border: thin solid black; }
+    body #content #lab1_sec1 {
+      width: 80px;
+      height: 100px;
+      position: relative;
+      left: 62.5%;
+      top: -110%;
+      border: thin solid black; }
+    body #content #keys div {
+      display: inline-block; }
+    body #content #keys div img {
+      width: 50px;
+      height: 35px;
+      padding-right: 1em; }
+    body #content #lab1_sec1, body #content #lab2, body #content #lab3, body #content #lab4, body #content #lab5, body #content #lab6, body #content #lab7, body #content #lab8_sec1, body #content #tun1, body #content #tun2, body #content #tun3, body #content #tun4, body #content #tun5, body #content #tun6, body #content #tun7, body #content #tun8, body #content #tun9, body #content #tun10 {
+      cursor: pointer; }
+
+#startup {
+  position: fixed;
+  top: 30%;
+  left: 35%;
+  border: thin solid black;
+  background-color: white;
+  width: 30em;
+  height: 11em;
+  text-align: center; }
+  #startup ul {
+    text-align: left; }
+
+.highlightDrop {
+  background-color: yellow; }
+
+/*# sourceMappingURL=style.css.map */
