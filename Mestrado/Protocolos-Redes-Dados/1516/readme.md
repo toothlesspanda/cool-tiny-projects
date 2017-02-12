@@ -1,4 +1,4 @@
-10 Criticas aos papers:
+10 Criticas aos papers: [AVG 17/20]
 
 - A Protocol for Packet Network Intercommunication
 - B4: Experience with a Globally-Deployed Software Defined WAN
@@ -11,6 +11,6 @@
 - I Know What Your Packet Did Last Hop: Using Packet Histories to Troubleshoot Networks
 - How Secure are Secure Interdomain Routing Protocols?
 
-Projeto em mininet
+Projeto em mininet [ 17.5/20 ]
 
 - Simulação da criação de um pequeno datacenter e configurações básicas de cada ligação

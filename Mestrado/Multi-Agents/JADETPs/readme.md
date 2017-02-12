@@ -2,6 +2,9 @@
 
 Contrução de agentes na plataforma JADE (exercícios)
 
+###Projecto Final [17/20]
+Mercado Imobiliário com negociação entre clientes e dois Seller Agents. A documentação explica o funcionamento.
+
 ###agentsTP2
 Uma conversa entre agentes
 
