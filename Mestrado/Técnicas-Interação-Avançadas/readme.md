@@ -14,4 +14,4 @@ Made with 4 main components:
 - Interactive Table: with a web application, player 2 can interact with the game through the table, dragging elements to the the map
 - Dive (VR): creates an imersive environment
 
-You can see a presenting video ![here](https://img.youtube.com/vi/1yBEX_-5YGo/hqdefault.jpg)](https://www.youtube.com/watch?v=1yBEX_-5YGo)
+You can see a presenting video ( ![here] (https://img.youtube.com/vi/1yBEX_-5YGo/hqdefault.jpg)](https://www.youtube.com/watch?v=1yBEX_-5YGo)
