@@ -1,6 +1,6 @@
 ## Técnicas de Interação Avançadas
 
-###1516-horrorgame #malayka66 
+###1516-horrorgame # @malayka66 && @Kharallos 
 A group project which is a horror game with an imersive environment made in Unity. 
 
 There are two players. 
