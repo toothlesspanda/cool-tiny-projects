@@ -1,0 +1,4 @@
+DFAgent.java - class dos conversadores num df
+Initir - class do primeiro conversador que inicia a conversa
+
+-gui -port 1222 -agents "Agent1:df.DFAgent;Agent2:df.DFAgent;Initer:df.Initer"
