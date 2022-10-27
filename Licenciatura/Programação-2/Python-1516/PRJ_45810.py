@@ -14,8 +14,6 @@ Projeto de programação:
 Crime numa grande cidade
 """
 
-__author__ = "Ana Espinheira, 45810; Dharmite Prabhudas 45811"
-
 import collections,pylab, csv, numpy
 import datetime
 from math import radians, cos, sin, asin, sqrt, pi
